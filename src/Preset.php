@@ -40,15 +40,6 @@ class Preset extends BasePreset
         ]));
     }
 
-    protected static function updatePackages() {
-        return array_merge([
-            'apollo-boost': '^0.1.27',
-            'graphql': '^14.1.1',
-            'graphql-anywhere': '^4.1.27',
-            'vue-apollo': '^3.0.0-beta.28'
-        ]);
-    }
-
     protected static function updateWebpackConfiguration()
     {
         copy(__DIR__.'/stubs/webpack.mix.js', base_path('webpack.mix.js'));

@@ -38,6 +38,14 @@ Finally, apply the scaffolding by running:
 php artisan preset 3claxons
 ```
 
+To install the tailwind config in the root directory:
+
+...
+./node_modules/.bin/tailwind init
+...
+
+And pass the tailwind config path in the webpack.mix.js file
+
 
 
 

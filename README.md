@@ -1,4 +1,4 @@
-# Erwin Maas' Laravel Frontend Preset
+# :art:Erwin Maas' Laravel Frontend Preset
 
 A Laravel frontend preset that scaffolds out new applications just the way I like 'em 👌🏻
 
@@ -28,19 +28,19 @@ This package isn't on Packagist (yet), so to get started, add it as a repository
 
 Next, run this command to add the preset to your project:
 
-```
+```bash
 composer require erwinmaas/laravel-preset --dev
 ```
 
 Finally, apply the scaffolding by running:
 
-```
+```bash
 php artisan preset 3claxons
 ```
 
 To install the tailwind config in the root directory:
 
-...
+...bash
 ./node_modules/.bin/tailwind init
 ...
 

@@ -27,11 +27,7 @@ class Preset extends BasePreset
             'laravel-mix-purgecss' => '^2.2.0',
             'postcss-nesting' => '^5.0.0',
             'postcss-import' => '^11.1.0',
-            'tailwindcss' => '>=0.5.3',
-            // 'apollo-boost' => '^0.1.27',
-            // 'graphql' => '^14.1.1',
-            // 'graphql-anywhere' => '^4.1.27',
-            // 'vue-apollo' => '^3.0.0-beta.28',
+            'tailwindcss' => '>=0.5.3'
         ], Arr::except($packages, [
             'bootstrap',
             'bootstrap-sass',

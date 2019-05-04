@@ -35,7 +35,7 @@ composer require erwinmaas/laravel-preset --dev
 Finally, apply the scaffolding by running:
 
 ```bash
-php artisan preset 3claxons
+php artisan preset threeClaxons
 ```
 
 To install the tailwind config in the root directory:
@@ -45,7 +45,3 @@ To install the tailwind config in the root directory:
 ...
 
 And pass the tailwind config path in the webpack.mix.js file
-
-
-
-
